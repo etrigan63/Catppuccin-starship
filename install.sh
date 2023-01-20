@@ -6,7 +6,7 @@ file=user_starship.toml
 
 
 function copiaFile(){
-	echo "Copiando en..."
+	echo "Copying into..."
 	echo "~/.config"
 	cp $file $HOME/.config/starship.toml
 }
@@ -16,28 +16,28 @@ function compDir(){
 		then 
 			copiaFile 
 		else 
-			echo "No existe el directorio destino ~/.config"
-			echo "Deseas crearlo y copiar el fichero en él? (s/n)"
+			echo "The destination directory ~/.config does not exist."
+			echo "Do you want to create it and copy the configuration to it? (y/n)"
 			read resp
-			if [ $resp == 's']
+			if [ $resp == 'y']
 			then
-				echo "Creando directorio..."
+				echo "Creating directory..."
 				mkdir ~/.config
 				copiaFile
 			else
-				echo "Saliendo."
+				echo "Exiting."
 				exit 0
 			fi
 		fi
 }
 
 
-echo "Instalación del fichero de configuración."
+echo "Configuration file install."
 echo ""
 if [ "$EUID" -ne 0 ]
 then
-	echo "Para instalarlo en el usuario root, eleva privilegios: p.ej. [sudo -s]"
-	echo "Instalando el fichero de configuración para el usuario: " $user
+	echo "To install as root, use elevated privileges: e.g. [sudo -s]"
+	echo "Installing configuration file for user: " $user
 	echo ""
 	compDir
 	exit 0
