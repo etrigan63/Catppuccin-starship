@@ -7,7 +7,7 @@ $directory\
 [](fg:#cdd6f4 bg:#fab387)\
 $git_branch\
 $git_status\
-[](fg:#fab387 bg:#74c7ec)\
+[](fg:#fab387 bg:#89b4fa)\
 $c\
 $elixir\
 $elm\
@@ -18,7 +18,7 @@ $julia\
 $nodejs\
 $nim\
 $rust\
-[](fg:#74c7ec bg:#a6e3a1)\
+[](fg:#89b4fa bg:#a6e3a1)\
 $docker_context\
 [](fg:#a6e3a1 bg:#89b4fa)\
 $time\
@@ -122,5 +122,5 @@ format = '[[ $symbol ($version) ](fg:#11111b bg:#89b4fa)]($style)'
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
-style = "fg:#11111b bg:#74c7ec"
-format = '[[  $time ](fg:#11111b bg:#74c7ec)]($style)'
+style = "fg:#11111b bg:#89b4fa"
+format = '[[  $time ](fg:#11111b bg:#89b4fa)]($style)'
