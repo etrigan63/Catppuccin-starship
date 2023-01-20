@@ -1,13 +1,13 @@
 format = """
-[](#274693)\
+[](#89B4FA)\
 $username\
-[](fg:#FFFFFF bg:#274693)\
-[](bg:#EAE5E5 fg:#274693)\
+[](fg:#11111b bg:#89B4FA)\
+[](bg:#CDD6F4 fg:#89B4FA)\
 $directory\
-[](fg:#EAE5E5 bg:#FCA17D)\
+[](fg:#cdd6f4 bg:#fab387)\
 $git_branch\
 $git_status\
-[](fg:#FCA17D bg:#86BBD8)\
+[](fg:#fab387 bg:#74c7ec)\
 $c\
 $elixir\
 $elm\
@@ -18,11 +18,11 @@ $julia\
 $nodejs\
 $nim\
 $rust\
-[](fg:#86BBD8 bg:#06969A)\
+[](fg:#74c7ec bg:#a6e3a1)\
 $docker_context\
-[](fg:#06969A bg:#33658A)\
+[](fg:#a6e3a1 bg:#89b4fa)\
 $time\
-[ ](fg:#33658A)\
+[ ](fg:#89B4FA)\
 """
 
 # Disable the blank line at the start of the prompt
@@ -31,12 +31,12 @@ $time\
 # You can also replace your username with a neat symbol like  to save some space
 [username]
 show_always = true
-style_user = "bg:#274693"
-style_root = "bg:#db3943"
+style_user = "fg:#11111b bg:#89B4FA"
+style_root = "fg:#11111b bg:#f38ba8"
 format = '[$user ]($style)'
 
 [directory]
-style = "fg:#000000 bg:#EAE5E5"
+style = "fg:#11111b bg:#cdd6f4"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -56,71 +56,71 @@ truncation_symbol = "…/"
 
 [c]
 symbol = " "
-style = "bg:#86BBD8"
-format = '[[ $symbol ($version) ](bg:#86BBD8)]($style)'
+style = "fg:#11111b bg:#89b4fa"
+format = '[[ $symbol ($version) ](fg:#11111b bg:#89b4fa)]($style)'
 
 [docker_context]
 symbol = " "
-style = "bg:#06969A"
-format = '[[ $symbol $context ](bg:#06969A)]($style) $path'
+style = "fg:#11111b bg:#a6e3a1"
+format = '[[ $symbol $context ](fg:#11111b bg:#a6e3a1)]($style) $path'
 
 [elixir]
 symbol = " "
-style = "bg:#86BBD8"
-format = '[[ $symbol ($version) ](bg:#86BBD8)]($style)'
+style = "fg:#11111b bg:#89b4fa"
+format = '[[ $symbol ($version) ](fg:#11111b bg:#89b4fa)]($style)'
 
 [elm]
 symbol = " "
-style = "bg:#86BBD8"
-format = '[[ $symbol ($version) ](bg:#86BBD8)]($style)'
+style = "fg:#11111b bg:#89b4fa"
+format = '[[ $symbol ($version) ](fg:#11111b bg:#89b4fa)]($style)'
 
 [git_branch]
 symbol = ""
-style = "bg:#FCA17D"
-format = '[[ $symbol $branch ](bg:#FCA17D)]($style)'
+style = "fg:#11111b bg:#fab387"
+format = '[[ $symbol $branch ](fg:#11111b bg:#fab387)]($style)'
 
 [git_status]
-style = "bg:#FCA17D"
-format = '[[($all_status$ahead_behind )](bg:#FCA17D)]($style)'
+style = "fg:#11111b bg:#fab387"
+format = '[[($all_status$ahead_behind )](fg:#11111b bg:#fab387)]($style)'
 
 [golang]
 symbol = " "
-style = "bg:#86BBD8"
-#format = '[[ $symbol ($version) ](bg:#86BBD8)]($style)'
-format = '[[ $symbol](bg:#86BBD8)]($style)'
+style = "fg:#11111b bg:#89b4fa"
+#format = '[[ $symbol ($version) ](fg:#11111b bg:#89b4fa)]($style)'
+format = '[[ $symbol](fg:#11111b bg:#89b4fa)]($style)'
 
 [haskell]
 symbol = " "
-style = "bg:#86BBD8"
-format = '[[ $symbol ($version) ](bg:#86BBD8)]($style)'
+style = "fg:#11111b bg:#89b4fa"
+format = '[[ $symbol ($version) ](fg:#11111b bg:#89b4fa)]($style)'
 
 [java]
 symbol = " "
-style = "bg:#86BBD8"
-format = '[[ $symbol ($version) ](bg:#86BBD8)]($style)'
+style = "fg:#11111b bg:#89b4fa"
+format = '[[ $symbol ($version) ](fg:#11111b bg:#89b4fa)]($style)'
 
 [julia]
 symbol = " "
-style = "bg:#86BBD8"
-format = '[[ $symbol ($version) ](bg:#86BBD8)]($style)'
+style = "fg:#11111b bg:#89b4fa"
+format = '[[ $symbol ($version) ](fg:#11111b bg:#89b4fa)]($style)'
 
 [nodejs]
 symbol = ""
-style = "bg:#86BBD8"
-format = '[[ $symbol ($version) ](bg:#86BBD8)]($style)'
+style = "fg:#11111b bg:#89b4fa"
+format = '[[ $symbol ($version) ](fg:#11111b bg:#89b4fa)]($style)'
 
 [nim]
 symbol = " "
-style = "bg:#86BBD8"
-format = '[[ $symbol ($version) ](bg:#86BBD8)]($style)'
+style = "fg:#11111b bg:#89b4fa"
+format = '[[ $symbol ($version) ](fg:#11111b bg:#89b4fa)]($style)'
 
 [rust]
 symbol = ""
-style = "bg:#86BBD8"
-format = '[[ $symbol ($version) ](bg:#86BBD8)]($style)'
+style = "fg:#11111b bg:#89b4fa"
+format = '[[ $symbol ($version) ](fg:#11111b bg:#89b4fa)]($style)'
 
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
-style = "bg:#33658A"
-format = '[[  $time ](bg:#33658A)]($style)'
+style = "fg:#11111b bg:#74c7ec"
+format = '[[  $time ](fg:#11111b bg:#74c7ec)]($style)'
