@@ -4,7 +4,7 @@ $username\
 [ﮊ](fg:#11111b bg:#f38ba8)\
 [](bg:#cdd6f4 fg:#f38ba8)\
 $directory\
-[](fg:#11111b bg:#fab387)\
+[](fg:#cdd6f4 bg:#fab387)\
 $git_branch\
 $git_status\
 [](fg:#fab387 bg:#cba6f7)\
