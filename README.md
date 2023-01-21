@@ -1,41 +1,42 @@
 # Starship Themes
 
-Plantillas para [Starship Cross-Shell Prompt](https://starship.rs/)
+Catppuccin Theme for [Starship Cross-Shell Prompt](https://starship.rs/)
 
 
 ![image](https://user-images.githubusercontent.com/26630788/182826883-07fbbf5d-ee3e-4389-bcda-32d3c8d39717.png)
 
 
-## Plantilla de usuario
+## User Prompt
 
-Con la plantilla ```user_starship.toml``` obtendrás la shell siguiente:
+```user_starship.toml``` provides the following prompt:
 
-![image](https://user-images.githubusercontent.com/26630788/182824515-2b500690-c97e-480b-a0ea-c02e62bc3a98.png)
-
-
-## Plantilla de root
-
-Con la plantilla ```root_starship.toml``` obtendrás la shell siguiente:
-
-![image](https://user-images.githubusercontent.com/26630788/182827166-d5385fe6-7d0a-40e9-9ff0-e2fa9d35b984.png)
+![image](https://github.com/etrigan63/Catppuccin-starship/blob/9592a63569ff2f6ead3241c71a10504a7ecf0cb2/assets/starship-1.png)
 
 
-## Configuración de la shell en Linux
+## Root Prompt
 
-**Opción 1:** Usa el instalador ```install.sh```:
+```root_starship.toml``` provides the following prompt:
+
+![image](https://github.com/etrigan63/Catppuccin-starship/blob/9592a63569ff2f6ead3241c71a10504a7ecf0cb2/assets/starship-2.png)
+
+
+## Installation
+
+**Option 1:** Use the installer ```install.sh```:
 ```bash
-git clone https://github.com/docentemasterd/starshipThemes
-cd starshipThemes
+git clone https://github.com/etrigan63/Catppuccin-starship
+cd Catppuccin-starship
 chmod +x install.sh
 ./install.sh
 ```
 
-**Opción 2:** Copia y pega el fichero que corresponda en la carpeta ```$HOME/.config/``` de cada usuario, renombrándolo a ```starship.toml```
+**Option 2:** Copy and paste the config file to ```$HOME/.config/``` of each user, renaming it to ```starship.toml```
 
-## Plantilla PowerShell
+## PowerShell Prompt
 
-Versión para Windows Powershell disponible.
+A version for Windows Powershell is available.
 
-Copia el fichero ```windows_starship.toml``` en la carpeta de configuración y renómbralo a ```starship.toml``` para que se active.
+Copy the file ```windows_starship.toml``` to the config folder and rename it to ```starship.toml``` to activate it.
 
-**Basado en** [**Pastel PowerLine**](https://starship.rs/es-ES/presets/#pastel-powerline)
+**Based on** [**Pastel PowerLine**](https://starship.rs/es-ES/presets/#pastel-powerline)
+**Forked from** [**Catppuccin-starship**](https://github.com/ss77a/Catppuccin-starship)
