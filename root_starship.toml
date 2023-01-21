@@ -7,7 +7,7 @@ $directory\
 [](fg:#11111b bg:#fab387)\
 $git_branch\
 $git_status\
-[](fg:#fab387 bg:#89b4fa)\
+[](fg:#fab387 bg:#cba6f7)\
 $c\
 $elixir\
 $elm\
@@ -18,7 +18,7 @@ $julia\
 $nodejs\
 $nim\
 $rust\
-[](fg:#89b4fa bg:#a6e3a1)\
+[](fg:#cba6f7 bg:#a6e3a1)\
 $docker_context\
 [](fg:#a6e3a1 bg:#89b4fa)\
 $time\
@@ -56,8 +56,8 @@ truncation_symbol = "…/"
 
 [c]
 symbol = " "
-style = "fg:11111b bg:#89b4fa"
-format = '[[ $symbol ($version) ](fg:11111b bg:#89b4fa)]($style)'
+style = "fg:11111b bg:#cba6f7"
+format = '[[ $symbol ($version) ](fg:11111b bg:#cba6f7)]($style)'
 
 [docker_context]
 symbol = " "
@@ -66,13 +66,13 @@ format = '[[ $symbol $context ](fg:11111b bg:#a6e3a1)]($style) $path'
 
 [elixir]
 symbol = " "
-style = "fg:11111b bg:#89b4fa"
-format = '[[ $symbol ($version) ](fg:11111b bg:#89b4fa)]($style)'
+style = "fg:11111b bg:#cba6f7"
+format = '[[ $symbol ($version) ](fg:11111b bg:#cba6f7)]($style)'
 
 [elm]
 symbol = " "
-style = "fg:11111b bg:#89b4fa"
-format = '[[ $symbol ($version) ](fg:11111b bg:#89b4fa)]($style)'
+style = "fg:11111b bg:#cba6f7"
+format = '[[ $symbol ($version) ](fg:11111b bg:#cba6f7)]($style)'
 
 [git_branch]
 symbol = ""
@@ -85,38 +85,38 @@ format = '[[($all_status$ahead_behind )](fg:11111b bg:#fab387)]($style)'
 
 [golang]
 symbol = " "
-style = "fg:11111b bg:#89b4fa"
-#format = '[[ $symbol ($version) ](fg:11111b bg:#89b4fa)]($style)'
-format = '[[ $symbol](fg:11111b bg:#89b4fa)]($style)'
+style = "fg:11111b bg:##cba6f7"
+#format = '[[ $symbol ($version) ](fg:11111b bg:#cba6f7)]($style)'
+format = '[[ $symbol](fg:11111b bg:#cba6f7)]($style)'
 [haskell]
 symbol = " "
-style = "fg:11111b bg:#89b4fa"
-format = '[[ $symbol ($version) ](fg:11111b bg:#89b4fa)]($style)'
+style = "fg:11111b bg:#cba6f7"
+format = '[[ $symbol ($version) ](fg:11111b bg:#cba6f7)]($style)'
 
 [java]
 symbol = " "
-style = "fg:11111b bg:#89b4fa"
-format = '[[ $symbol ($version) ](fg:11111b bg:#89b4fa)]($style)'
+style = "fg:11111b bg:#cba6f7"
+format = '[[ $symbol ($version) ](fg:11111b bg:#cba6f7)]($style)'
 
 [julia]
 symbol = " "
-style = "fg:11111b bg:#89b4fa"
-format = '[[ $symbol ($version) ](fg:11111b bg:#89b4fa)]($style)'
+style = "fg:11111b bg:#cba6f7"
+format = '[[ $symbol ($version) ](fg:11111b bg:#cba6f7)]($style)'
 
 [nodejs]
 symbol = ""
-style = "fg:11111b bg:#89b4fa"
-format = '[[ $symbol ($version) ](fg:11111b bg:#89b4fa)]($style)'
+style = "fg:11111b bg:#cba6f7"
+format = '[[ $symbol ($version) ](fg:11111b bg:#cba6f7)]($style)'
 
 [nim]
 symbol = " "
-style = "fg:11111b bg:#89b4fa"
-format = '[[ $symbol ($version) ](fg:11111b bg:#89b4fa)]($style)'
+style = "fg:11111b bg:#cba6f7"
+format = '[[ $symbol ($version) ](fg:11111b bg:#cba6f7)]($style)'
 
 [rust]
 symbol = ""
-style = "fg:11111b bg:#89b4fa"
-format = '[[ $symbol ($version) ](fg:11111b bg:#89b4fa)]($style)'
+style = "fg:11111b bg:#cba6f7"
+format = '[[ $symbol ($version) ](fg:11111b bg:#cba6f7)]($style)'
 
 [time]
 disabled = false
